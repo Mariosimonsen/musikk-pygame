@@ -38,12 +38,18 @@ class AudioPlayer:
     
     def stop(self):
         """
+        
         stop the music playback
         :return: None
         """
         self.music.stop()
     
     def pause(self):
+        """
+        
+        temporarily stop music playback
+        :return: None
+        """
         self.music.pause()
     
     def unpause(self):
