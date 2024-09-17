@@ -1,8 +1,6 @@
 from pygame import mixer 
 
 
-
-
 class AudioPlayer:
     def __init__(self):
         self.mixer = mixer
@@ -39,6 +37,10 @@ class AudioPlayer:
         self.music.rewind()
     
     def stop(self):
+        """
+        stop the music playback
+        :return: None
+        """
         self.music.stop()
     
     def pause(self):
