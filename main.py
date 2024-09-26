@@ -45,7 +45,7 @@ class AudioPlayer:
         """
         Set the volume of the music playback.
 
-        :param volume: The volume argument is a float between 0.0 and 
+        :param value: The volume argument is a float between 0.0 and 
             1.0 that sets the volume level. When new music is loaded 
             the volume is reset to full volume. If volume is a negative 
             value it will be ignored and the volume will remain set at 
